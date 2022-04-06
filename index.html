@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- remix cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Octavian Hotel</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="navbar">
+        <a class="brand-logo" href="index.html">
+          <img src="img/logo.png" alt="logo" />
+        </a>
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a class="active" href="index.html">Home</a>
+          </li>
+          <li class="nav-link">
+            <a href="./pages/room.html">Rooms</a>
+          </li>
+          <li class="nav-link">
+            <a href="./pages/facilities.html">Facilities</a>
+          </li>
+          <li class="nav-link">
+            <a href="./pages/contact.html">Contact us</a>
+          </li>
+        </ul>
+        <span class="burger">
+          <i class="ri-bar-chart-horizontal-fill ri-2x"></i>
+        </span>
+      </nav>
+    </header>
+
+    <!-- main section -->
+    <main>
+      <section class="hero">
+        <div class="chevrons">
+          <div>
+            <span> <i class="ri-arrow-left-s-line arrows ri-3x"></i></span>
+          </div>
+
+          <div>
+            <span> <i class="ri-arrow-right-s-line arrows ri-3x"></i></span>
+          </div>
+        </div>
+
+        <div class="hero-drop-container">
+          <div class="hero-drop first-hero-drop">
+            <p>Select Room</p>
+            <select name="rooms-select">
+              <option value="single">Single Room</option>
+              <option value="double" selected>Double Room</option>
+              <option value="suite">Suites</option>
+            </select>
+            <span>
+              <i class="ri-arrow-down-s-line"></i>
+            </span>
+          </div>
+          <div class="hero-drop second-hero-drop">
+            <p>5/4/2022</p>
+            <span>
+              <i class="ri-calendar-2-line"></i>
+            </span>
+          </div>
+          <div class="hero-drop">
+            <p>5/4/2022</p>
+            <span>
+              <i class="ri-calendar-2-line"></i>
+            </span>
+          </div>
+          <div class="last-hero-drop hero-drop">
+            <p>View Rates</p>
+            <i class="ri-arrow-right-s-line ri-2x"></i>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section -->
+    <footer></footer>
+  </body>
+</html>
